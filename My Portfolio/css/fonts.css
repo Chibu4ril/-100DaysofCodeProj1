@@ -1,0 +1,27 @@
+
+
+
+/* @font faces*/
+
+
+/* titles */
+@font-face{
+    src: url(/font/Roboto/Roboto-Bold.ttf);
+    font-family: "Roboto-Bold";
+}
+
+
+
+/* subtitles */
+@font-face{
+    src: url(/font/Roboto/Roboto-Medium.ttf);
+    font-family: "Roboto-Regular";
+}
+
+
+
+/* paragraphs */
+@font-face{
+    src: url(/font/Noto_Sans_JP/NotoSansJP-Light.otf);
+    font-family: "NotoSansJP-Light";
+}

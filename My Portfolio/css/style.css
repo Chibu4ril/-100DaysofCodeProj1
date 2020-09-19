@@ -1,0 +1,81 @@
+/* import fonts */
+
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+
+/* global styling */
+@import url(/css/partials/global.css);
+
+/* Start Navigation */
+
+.header_nav .main-menu .navbar .navbar-brand {
+    padding: 0 2rem 0 3rem;
+    
+}
+
+.header_nav .main-menu .navbar{
+    padding: 1rem 8rem;
+}
+
+.header_nav .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto-subtitle);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_nav .main-menu .navbar .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_nav .main-menu .navbar .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* End Navigation */
+
+
+/* Banner Area  */
+.site-main .site-banner{
+    background: url(/img/banner/rsz_innocent-removebg-preview.png) no-repeat 0% 50%;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content:"";
+    height: 2px ;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 4rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.4rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 2.8rem 0;
+    width: 90rem;
+}
+/* End Banner Area  */
+
